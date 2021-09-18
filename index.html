@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/icono.png" />
+    <title>PROGRAMA DE SUBNETEO </title>
+    <script src="JS/logica.js"></script>
+    <script src="JS/llenartablas.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="Z">
+        <p style="color:#FFFFFF" ; align="left" ;> 5IV8-López-Sandoval-Mariana (MarLo) </P>
+    </div>
+    <div class="div_inicio">
+        <div class="cont_perfil">
+            <br><br>
+            <h1 align="center">PROGRAMA DE SUBNETEO</h1>
+            <br><br>
+            <label class="enun">Ingresa la IP</label>
+
+            <input type="input_text" class="boxi" id="ip" name="ip">
+
+            <label class="enun">Número de Subredes</label>
+
+            <input type="input_text" class="boxi" id="subred">
+
+            <input type="button" class="boxi" value="Calcular" onclick="XDE()">
+
+        </div>
+        <br>
+        <br><br><br>
+        <div class="cont_perfil">
+
+            <h3>IP en binario</h3>
+
+            <input type="text" class="boxi" id="ipbin" readonly>
+            <br><br><br>
+            <h3>Tipo de clase</h3>
+
+            <input type="text" class="boxi" id="clase" readonly>
+            <br><br><br>
+            <h3>Máscara de subred adaptada</h3>
+
+
+            <input type="text" class="boxi" id="maskadap" readonly>
+            <br><br><br>
+            <h3>Máscara de subred en binario</h3>
+
+
+            <input type="text" class="boxi" id="maskbin" readonly>
+
+            <br><br><br>
+        </div>
+        <br>
+        <div>
+            <table id="tabla1" class="table">
+            </table>
+        </div>
+    </div>
+    
+</body>
+
+</html>

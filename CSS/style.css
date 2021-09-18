@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+    color:#000000;
+    
+}
+
+html, body, table{
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+.Z{
+    border:5px solid #162123;
+    border-radius: 0px;
+    margin: 0rem ;
+    background-color: #162123;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    /*Letra mas recta*/
+}
+header{
+    font-size: 45px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.div_inicio{
+    background-color: #F3CECB; 
+    
+    font-family: 'Playfair Display', serif;
+    /*Letra mas elegante*/
+}
+
+textarea{
+    align-items: center;
+}
+
+
+
+.boxi{
+	border: 2px solid #000000;
+	border-radius: 3px;
+}
+
+
+
+table {
+    border:50px solid #F3CECB;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #fff url("gradient.gif") bottom left repeat-x;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+

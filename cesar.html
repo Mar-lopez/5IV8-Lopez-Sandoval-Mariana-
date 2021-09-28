@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="shortcut icon" href="IMG/icono.png" />
+    <script src="JS/logica.js"></script>
+    <title>CIFRADO CESAR</title>
+    <script src="JS/logica.js"></script>
+    <script src="JS/llenartablas.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <body bgcolor="#B14AED">
+        <div class="Z">
+            <p style="color:#FFFFFF" ; align="left" ;> 5IV8-López-Sandoval-Mariana (MarLo) </P>
+            <div class="entrada">
+                <h5 class="hy">
+                    <a class="btn btn-outline-danger" href="./index.html"> PRICIPAL</a>
+                    <a class="btn btn-outline-success" href="./vigenere.html">VIGENERE</a>
+                    </center>
+                </h5>
+            </div>
+        </div>
+        <div class="div_inicio">
+            <div class="cont_perfil">
+                <br><br>
+                <h1 align="center">Cifrado y Descifrado Cesar y Viggenere</h1>
+                <br><br>
+            </div>
+
+            <br><br><br>
+            <div class="entrada">
+                <header>
+                    <div class="contenedor">
+                        <div id="marca">
+                            <center>
+                                <h1><span class="resaltado">CIFRADO</span> CESAR</h1>
+                            </center>
+
+
+                        </div>
+                        <nav>
+                            <ul>
+
+
+                            </ul>
+                        </nav>
+
+                    </div>
+                </header>
+
+                <section id="cajas">
+                    <div class="contenedor">
+                        <div class="caja">
+                            <h2>
+                                <font size="5" color="#CAE9FF" face="verdana">Este cifrado es un ejemplo del cifrado
+                                    original
+                                    Cesar en el cual se usa un cambio de posición dentro del alfabeto en 3 lugares.
+                            </h2>
+                            </font>
+                        </div>
+                    </div>
+                </section>
+                <textarea id="cadena" class="cuadro" onkeypress="return validar_cadena(event)"></textarea>
+
+
+
+
+                <textarea id="semilla" class="cuadro" onkeypress="return validar_semilla(event)"></textarea>
+
+                <p><input type="button" value="Cifrar" onclick="validar_cifrado()">
+                    <input type="button" value="Descifrar" onclick="validar_descifrado()">
+                </p>
+
+
+                <div id="resultado"></div>
+            </div>
+            <br>
+            <div>
+                <table id="tabla1" class="table">
+                </table>
+            </div>
+        </div>
+    </body>
+
+
+</html>

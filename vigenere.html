@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/icono.png" />
+    <title>Cifrado Vigenere</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/logica.js"></script>
+    <script src="JS/llenartablas.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="Z">
+        <p style="color:#FFFFFF" ; align="left" ;> 5IV8-López-Sandoval-Mariana (MarLo) </P>
+            <div class="entrada">
+                <h5 class="hy">
+                        <a class="btn btn-outline-success" href="./cesar.html">CESAR</a>
+    
+                        <a class="btn btn-outline-danger" href="./index.html"> PRICIPAL</a>
+                    </center>
+                </h5>
+            </div>
+    </div>
+
+    <div class="div_inicio">
+        <div class="cont_perfil">
+            <br><br>
+            <h1 align="center">Cifrado y Descifrado Cesar y Viggenere</h1>
+            <br><br>
+        </div>
+        <div class="entrada">
+            <div class="container">
+                <div class="row">
+                    <div class="one-half column" style="margin-top: 15%">
+                        <h1>Cifrado Vigenere</h2>
+                            <textarea id="cad" placeholder="Texto a cifrar"
+                                onkeypress="return letras(event)"></textarea>
+                            <br>
+                            <input type="password" id="clv" placeholder="Clave Seceta"
+                                onkeypress="return letras(event)">
+                            <br>
+                            <input type="button" value="Cifrar" onclick="encriptarTextoClaro()">
+
+                            <input type="button" value="Descifrar" onclick="desencriptarTextoClaro()">
+                            <br>
+                            <div id="resultado"></div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="JS/logica.js"></script>
+            <script src="JS/validacion.js"></script>
+        </div>
+    
+        <div>
+            <table id="tabla1" class="table">
+            </table>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
